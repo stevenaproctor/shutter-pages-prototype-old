@@ -1,0 +1,67 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Shutter pages
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <h1 class="heading-xlarge">Suggestions</h1>
+	  
+	  <h2 class="heading-medium">General</h2>
+	  <p>All pages, no matter what type, should:</p>
+	  
+	  <ul class="list-bullet">
+	  <li>have the service title in the top bar as it appears throughout the service</li>
+	  <li>avoid alpha or beta banners</li>
+	  <li>avoid breadcrumbs</li>
+	  <li>use the H1 and page title "Service unavailable"</li>
+	  <li>be clear and concise without using colour or language that may alarm or confuse people, like red text or phrases like private beta</li>
+	  </ul>
+
+      <h2 class="heading-medium">Maintenance &ndash; planned</h2>
+	  <p>When a service is shuttered on purpose we do not need to be sorry. We need to reassure that the service is unavailable because of maintenance and tell them when it is coming back.</p>
+	  
+	  <ul class="list-bullet">
+	  <li><a href="maintenance">Template</a></li>
+	  <li><a href="maintenance-employment-intermediaries">Employment intermediaries</a> &ndash; they do not have a contact page</li>
+	  <li><a href="maintenance-tax-credits">Tax credits</a> &ndash; service is not a verb</li>
+	  </ul>
+	  
+	  <h2 class="heading-medium">Technical problem &ndash; unplanned</h2>
+	  <p>When a service goes offline and it is unplanned, we need to be sorry. Because we did not take it down on purpose, it is unlikely that we can say when it will be back. We should not be too apologetic &ndash; &lsquo;We really apologise and ours engineers are working on the problem&rsquo; &ndash; we should just be as helpful as possible.</p>
+	  
+	  <p>If the technical problem is going to last for a longer time, the page could be changed to say that and provide alternatives.</p>
+	  
+	  <ul class="list-bullet">
+	  <li><a href="technical-problems">Template</a></li>
+	  <li><a href="technical-problems-employment-intermediaries">Employment intermediaries</a> &ndash; no contact information as there is not a non-digital way to do whatever you need to do</li>
+	  <li><a href="technical-problems-tax-credits">Tax credits</a></li>
+	  </ul>
+	  
+	  <h2 class="heading-medium">Closed</h2>
+	  <p>When a service or part of a service is closed, like tax credits renewals is for 8 months a year, provide details of what the user can do. This might be a link to a contact page, or giving them that information on the page so they do not have to go to another page.</p>
+	  
+	  <ul class="list-bullet">
+	  <li><a href="closed">Template</a></li>
+	  <li><a href="closed-tax-credits">Tax credits</a></li>
+	  </ul>
+	  
+	  <h2 class="heading-medium">Not available yet</h2>
+	  <p>When a service or part of a service, like tax credits renewals, is due to come back online, the closed page should be changed to let the user know when it will be available.</p>		
+		<ul class="list-bullet">
+	  <li><a href="notyet">Template</a></li>
+	  <li><a href="notyet-tax-credits">Tax credits</a></li>
+	  </ul>
+	  
+    </div>
+  </div>
+</main>
+
+{% endblock %}
+
+
